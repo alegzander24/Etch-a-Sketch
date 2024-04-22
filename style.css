@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#div-container {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divs {
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+button {
+  font-size: 30px;
+  width: 130px; 
+  height: auto; 
+  align-self: flex-start; 
+  margin-top: 10px; /* Add some space below the button */
+}
+
+/* .divs:hover {
+    background-color: blueviolet;
+    transition: 0.7s;
+} */
